@@ -31835,7 +31835,7 @@ async function updateFeatures(token) {
       ignoreReturnCode: true,
       silent: true
   });
-  core.info(stdout);
+  console.log(stdout);
   
 }
 
